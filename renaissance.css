@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
 
+#tile-footer-MNure7 {
+	display: none !important;
+}
+
 * {
 	font-family: 'Avenir Next', 'Avenir', 'Nunito Sans', sans-serif !important;
 }
@@ -28,4 +32,62 @@
 		opacity: 1 !important;
 		border: none !important;
 	}
+}
+
+.footer-test {
+	width: 100%;
+}
+
+.footer-links {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+  * {
+	color: #333333ff !important;
+  }
+}
+
+.footer-links .column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-links h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.footer-links a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-links .locations li {
+  margin-bottom: 1rem;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 768px) {
+  .footer-links {
+    flex-direction: column;
+  }
 }
