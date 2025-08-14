@@ -4,14 +4,16 @@
 	font-family: 'Avenir Next', 'Avenir', 'Nunito Sans', sans-serif !important;
 }
 
-/*Homepage*/
+/* Homepage */
 #tile-header-fcHJMd {
 	.ins-header__logo-image-inner img {
 		width: 160px !important;
 	}
 }
 
-#tile-custom-RQ3wEH {
+/* For footer */
+#tile-custom-RQ3wEH, #tile-custom-PwptoQ, #tile-custom-bfUadR, #tile-custom-govRAP,
+#tile-custom-Ui6p3w, #tile-custom-ZwEByL {
 	* {
 		color: #333333ff !important;
 	}
