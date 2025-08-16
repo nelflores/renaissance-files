@@ -95,8 +95,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 © 2025, Renaissance Boutiques Ireland
             </div>
         </div>
-
-        <img src="/Images/american express.png" alt="">
+        
+        <img src="https://renaissance-files.pages.dev/Images/american express.png" alt="">
     `;
     
     target.insertAdjacentHTML('beforeend', html);
