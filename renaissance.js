@@ -54,7 +54,7 @@ function addFooterToAllPage() {
             </div>
         </div>
     `;
-    mainDiv.insertAdjacentHTML('beforeend', footerHtml);
+    mainDiv.insertAdjacentHTML('beforebegin', footerHtml);
 }
 
 function addGoogleReviewToHomePage() {
