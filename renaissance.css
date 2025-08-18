@@ -73,7 +73,6 @@
 
 
 /* Footer Payment Rating */
-
 .unknown-payment-section {
 	display: flex;
 	flex-wrap: wrap;
@@ -149,4 +148,81 @@
 	color: #121212bf;
 	font-size: 0.9rem;
 	text-align: center;
+}
+
+/* Google Review */
+.unknown-carousel-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.unknown-carousel-container {
+	overflow: hidden;
+	flex: 1;
+	max-width: 1000px;
+}
+
+.unknown-carousel {
+	display: flex;
+	transition: transform 0.4s ease-in-out;
+}
+
+.unknown-review-card {
+	background-color: #f4f4f4;
+	border-radius: 12px;
+	padding: 20px;
+	margin-right: 20px;
+	flex: 0 0 auto;
+	min-width: 310px;
+	max-width: 310px;
+	height: 230px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.unknown-profile {
+	display: flex;
+	align-items: center;
+}
+
+.unknown-profile img {
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.unknown-profile h4 {
+	margin: 0;
+	font-weight: bold;
+}
+
+.unknown-profile .unknown-date {
+	color: #767676;
+	font-size: 13px;
+}
+
+.unknown-review-card .unknown-stars {
+	margin: 11px 0;
+}
+
+.unknown-review-card p {
+	margin: 0;
+}
+
+.unknown-nav {
+	background: none;
+	border: none;
+	font-size: 21px;
+	cursor: pointer;
+	padding: 10px;
+	z-index: 10;
+	width: 50px;
+	height: 50px;
+}
+
+.unknown-nav:hover {
+	background-color: #eee;
+	border-radius: 50%;
 }
