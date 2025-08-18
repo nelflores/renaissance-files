@@ -221,7 +221,7 @@
 
 .unknown-profile {
 	display: flex;
-	align-items: center;
+	align-items: start;
 }
 
 .unknown-profile img {
