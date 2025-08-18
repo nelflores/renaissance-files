@@ -161,7 +161,32 @@
 	padding: 30px 0;
 }
 
-.unknown-carousel-wrapper > div {
+.unknown-carousel-wrapper > div:first-child {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.unknown-carousel-wrapper > div:first-child > h2 {
+	margin: 0;
+	font-weight: bold;
+}
+
+.unknown-carousel-wrapper > div:first-child > div {
+	display: flex;
+	margin: 5px 0;
+}
+
+.unknown-carousel-wrapper > div:first-child > h4 {
+	margin: 0;
+	font-weight: normal;
+}
+
+.unknown-carousel-wrapper > div:first-child > img {
+	margin: 10px 0 20px;
+}
+
+.unknown-carousel-wrapper > div:last-child {
 	display: flex;
 	align-items: center;
 	justify-content: center;
