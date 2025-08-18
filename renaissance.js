@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     mainDiv.insertAdjacentHTML('beforeend', footerHtml);
     
     // Add carousel to home page only
-    var targetDiv = document.getElementById("unknown-footer-links");
+    var targetDiv = document.getElementById("tile-image-text-xTecMv");
     if (targetDiv) {
         const googleReviewHtml = `
             <div class="unknown-carousel-wrapper">
