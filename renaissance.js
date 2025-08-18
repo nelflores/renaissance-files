@@ -50,87 +50,90 @@ document.addEventListener('DOMContentLoaded', () => {
     mainDiv.insertAdjacentHTML('beforeend', footerHtml);
     
     // Add carousel to home page only
-    var targetDiv = document.getElementById("tile-image-text-xTecMv");
+    var targetDiv = document.getElementById("unknown-footer-links");
     if (targetDiv) {
         const googleReviewHtml = `
             <div class="unknown-carousel-wrapper">
-                <button class="unknown-nav unknown-left" onclick="prevSlide()">&#10094;</button>
-                
-                <div class="unknown-carousel-container">
-                    <div class="unknown-carousel" id="unknown-carousel">
-                        <!-- Review 1 -->
-                        <div class="unknown-review-card">
-                            <div class="unknown-profile">
-                                <img src="https://i.pravatar.cc/50?img=10" alt="Carl"/>
-                                <div>
-                                    <h4>Carl</h4>
-                                    <span class="unknown-date">2025-03-11</span>
+                <h1>Google Reviews</h1>
+                <div>
+                    <button class="unknown-nav unknown-left">&#10094;</button>
+                    
+                    <div class="unknown-carousel-container">
+                        <div class="unknown-carousel" id="unknown-carousel">
+                            <!-- Review 1 -->
+                            <div class="unknown-review-card">
+                                <div class="unknown-profile">
+                                    <img src="https://i.pravatar.cc/50?img=10" alt="Carl"/>
+                                    <div>
+                                        <h4>Carl</h4>
+                                        <span class="unknown-date">2025-03-11</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="unknown-stars">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/h.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
-                            </div>
-                            <p>I don't pretend to know much about ladies wear, Ted, but my wife and her friends are big fans of the colourful, chic confections on sale...</p>
-                        </div>
-                        <div class="unknown-review-card">
-                            <div class="unknown-profile">
-                                <img src="https://i.pravatar.cc/50?img=10" alt="Carl"/>
-                                <div>
-                                    <h4>Carl</h4>
-                                    <span class="unknown-date">2025-03-11</span>
+                                <div class="unknown-stars">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/h.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
                                 </div>
+                                <p>I don't pretend to know much about ladies wear, Ted, but my wife and her friends are big fans of the colourful, chic confections on sale...</p>
                             </div>
-                            <div class="unknown-stars">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/h.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
-                            </div>
-                            <p>I don't pretend to know much about ladies wear, Ted, but my wife and her friends are big fans of the colourful, chic confections on sale...</p>
-                        </div>
-                        <div class="unknown-review-card">
-                            <div class="unknown-profile">
-                                <img src="https://i.pravatar.cc/50?img=10" alt="Carl"/>
-                                <div>
-                                    <h4>Carl</h4>
-                                    <span class="unknown-date">2025-03-11</span>
+                            <div class="unknown-review-card">
+                                <div class="unknown-profile">
+                                    <img src="https://i.pravatar.cc/50?img=10" alt="Carl"/>
+                                    <div>
+                                        <h4>Carl</h4>
+                                        <span class="unknown-date">2025-03-11</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="unknown-stars">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/h.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
-                            </div>
-                            <p>I don't pretend to know much about ladies wear, Ted, but my wife and her friends are big fans of the colourful, chic confections on sale...</p>
-                        </div>
-                        <div class="unknown-review-card">
-                            <div class="unknown-profile">
-                                <img src="https://i.pravatar.cc/50?img=10" alt="Carl"/>
-                                <div>
-                                    <h4>Carl</h4>
-                                    <span class="unknown-date">2025-03-11</span>
+                                <div class="unknown-stars">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/h.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
                                 </div>
+                                <p>I don't pretend to know much about ladies wear, Ted, but my wife and her friends are big fans of the colourful, chic confections on sale...</p>
                             </div>
-                            <div class="unknown-stars">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/h.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
-                                <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
+                            <div class="unknown-review-card">
+                                <div class="unknown-profile">
+                                    <img src="https://i.pravatar.cc/50?img=10" alt="Carl"/>
+                                    <div>
+                                        <h4>Carl</h4>
+                                        <span class="unknown-date">2025-03-11</span>
+                                    </div>
+                                </div>
+                                <div class="unknown-stars">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/h.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
+                                </div>
+                                <p>I don't pretend to know much about ladies wear, Ted, but my wife and her friends are big fans of the colourful, chic confections on sale...</p>
                             </div>
-                            <p>I don't pretend to know much about ladies wear, Ted, but my wife and her friends are big fans of the colourful, chic confections on sale...</p>
+                            <div class="unknown-review-card">
+                                <div class="unknown-profile">
+                                    <img src="https://i.pravatar.cc/50?img=10" alt="Carl"/>
+                                    <div>
+                                        <h4>Carl</h4>
+                                        <span class="unknown-date">2025-03-11</span>
+                                    </div>
+                                </div>
+                                <div class="unknown-stars">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/h.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/star/e.svg" alt="Google" width="17" height="17" loading="lazy">
+                                </div>
+                                <p>I don't pretend to know much about ladies wear, Ted, but my wife and her friends are big fans of the colourful, chic confections on sale...</p>
+                            </div>
                         </div>
                     </div>
+                    
+                    <button class="unknown-nav unknown-right">&#10095;</button>
                 </div>
-                
-                <button class="unknown-nav unknown-right" onclick="nextSlide()">&#10095;</button>
             </div>
         `;
         targetDiv.insertAdjacentHTML('afterend', googleReviewHtml);
