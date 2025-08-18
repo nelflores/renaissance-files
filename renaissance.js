@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function addFooterToAllPage() {
-    const mainDiv = document.getElementsByClassName('ins-tiles--main')[0];
+    const mainDiv = document.getElementById('tile-footer-MNure7');
     if (document.getElementById('unknown-footer-links')) return;
     const footerHtml = `
         <div id="unknown-footer-links-wrapper" class="unknown-footer-links-wrapper">
@@ -54,7 +54,7 @@ function addFooterToAllPage() {
             </div>
         </div>
     `;
-    mainDiv.insertAdjacentHTML('beforeend', footerHtml);
+    mainDiv.insertAdjacentHTML('afterend', footerHtml);
 }
 
 function addGoogleReviewToHomePage() {
