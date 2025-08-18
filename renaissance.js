@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     addFooterToAllPage();
     
     // Add carousel to home page only
-    addGoogleReviewToHomePage();
+    // addGoogleReviewToHomePage();
 });
 
 function addFooterToAllPage() {
